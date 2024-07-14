@@ -1,0 +1,129 @@
+<style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+            color: #333;
+        }
+
+        #header {
+            background: #333;
+            color: #fff;
+            padding: 1em 0;
+            position: fixed;
+            width: 100%;
+            z-index: 1000;
+        }
+
+        #header .inner {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 0 2em;
+        }
+
+        #header .logo {
+            font-size: 1.5em;
+            font-weight: bold;
+            color: #fff;
+            text-decoration: none;
+        }
+
+        #nav {
+            display: flex;
+            align-items: center;
+        }
+
+        #nav a {
+            color: #fff;
+            text-decoration: none;
+            margin-left: 1em;
+        }
+
+        .hamburger {
+            display: none;
+            cursor: pointer;
+        }
+
+        .hamburger div {
+            width: 25px;
+            height: 3px;
+            background-color: white;
+            margin: 5px 0;
+        }
+
+        @media (max-width: 768px) {
+            #nav {
+                display: none;
+                flex-direction: column;
+                background: #333;
+                position: absolute;
+                top: 60px;
+                right: 0;
+                width: 100%;
+            }
+
+            #nav a {
+                margin: 1em 0;
+                text-align: center;
+            }
+
+            .hamburger {
+                display: block;
+            }
+
+            #nav.active {
+                display: flex;
+            }
+        }
+
+        #banner {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background: #333;
+            color: #fff;
+            text-align: center;
+        }
+
+        #banner h1 {
+            font-size: 3em;
+            margin-bottom: 0.5em;
+        }
+
+        #banner p {
+            font-size: 1.25em;
+            height: 2em;
+            overflow: hidden;
+        }
+
+        .main {
+            padding: 5em 2em;
+        }
+
+        .main .major {
+            text-align: center;
+            margin-bottom: 2em;
+        }
+
+        footer {
+            background: #333;
+            color: #fff;
+            padding: 2em 0;
+            text-align: center;
+        }
+
+        .form-group label {
+            color: #333;
+        }
+
+        section {
+            display: none;
+        }
+
+        section.active {
+            display: block;
+        }
+    </style>
