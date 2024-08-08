@@ -57,7 +57,7 @@ Opportunity Hub is a platform designed to support innovators by providing a spac
 - Team Collaboration Tools (Trello, Slack)
 
 ## How to View the Portfolio
-You can view my live portfolio by [visiting this link](#https://dontoue.github.io). The portfolio includes detailed descriptions of the projects, screenshots, and links to the source code and live demos.
+You can view my live portfolio by [visit this link](##https:dontoue.github.io). The portfolio includes detailed descriptions of the projects, screenshots, and links to the source code and live demos.
 
 ## Contact
 If you’re interested in collaborating or have any questions, feel free to reach out!
