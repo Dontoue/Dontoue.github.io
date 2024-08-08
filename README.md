@@ -1,4 +1,4 @@
-# Donald Mwanga Makori - Portfolio
+# Donald Mwanga - Portfolio
 
 Welcome to my personal portfolio repository! This repository showcases my work as a software developer, highlighting some of the key projects I’ve worked on, including the CareersPortal job hosting site and the Opportunity Hub platform. This portfolio also outlines my skills in frontend and backend development, UI/UX design, and project management.
 
